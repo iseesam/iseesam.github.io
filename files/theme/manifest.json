@@ -1,0 +1,53 @@
+ {
+	"responsive": true,
+	"glyph-icons": true,
+	"enableEditorJS": true,
+	"description": "Unite is a classic with some impressive accessories. Always in style, Unite delivers subtle, yet impressive design elements with neutral backgrounds that set the tone for a range of beautiful website building options.",
+	"features": [
+		"responsive",
+		"css-buttons",
+		"social-icons",
+		"full-width-header",
+		"navigation-side",
+		"boxed-header",
+		"color-palettes"
+	],
+	"variations": [
+		{
+			"value": "light",
+			"sample": "#ffffff",
+			"is-dark": false
+		},
+		{
+			"value": "dark",
+			"sample": "#000000",
+			"is-dark": true
+		}
+	],
+	"custom-options" : [
+        {
+            "name" : "sticky-nav",
+            "title": "Fixed Navigation",
+            "type" : "toggle",
+            "default" : false,
+			"is-body-class" : true,
+			"is-less-var" : false
+        },
+        {
+            "name" : "full-width",
+            "title": "Full Width",
+            "type" : "toggle",
+            "default" : true,
+			"is-body-class" : true,
+			"is-less-var" : false
+        },
+        {
+            "name" : "header-scroll-animate",
+            "title": "Animate Header Scroll",
+            "type" : "toggle",
+            "default" : false,
+			"is-body-class" : true,
+			"is-less-var" : false
+        }
+	]
+}
