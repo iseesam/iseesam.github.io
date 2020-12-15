@@ -48,7 +48,6 @@
 .button-container {
 float: left;
 margin-left: 7%;
-margin-right: 7%;
 }
 
 /* Next & previous buttons */
@@ -71,6 +70,7 @@ margin-right: 7%;
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  margin-right: 7%
   border-radius: 3px 0 0 3px;
 }
 
@@ -94,6 +94,7 @@ margin-right: 7%;
 .close {
   top: 5%;
   right: 0;
+  margin-right: 7%;
   border-radius: 50%;
 }
 
