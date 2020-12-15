@@ -47,7 +47,7 @@
 
 .button-container {
 float: left;
-margin-left: 20px;
+margin-left: 30%;
 }
 
 /* Next & previous buttons */
@@ -97,7 +97,6 @@ margin-left: 20px;
   margin-right: 7%;
   border-radius: 50%;
 }
-
 
 @media (max-width: 978px) {
 	.button-container {
