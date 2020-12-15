@@ -47,7 +47,7 @@
 
 .button-container {
 float: left;
-margin-left: 0px;
+margin-left: 20px;
 }
 
 /* Next & previous buttons */
@@ -96,6 +96,26 @@ margin-left: 0px;
   right: 0;
   margin-right: 7%;
   border-radius: 50%;
+}
+
+
+@media (max-width: 978px) {
+	.button-container {
+	  margin-left: 0px;
+    }
+}
+
+@media (max-width: 978px) {
+    .next, .close {
+	  margin-right:0;
+    }
+	.slideshow-container {
+	  padding-left:0;
+	  padding-right:0;
+	  padding-top:0;
+	  padding-bottom:5%;
+	  margin:0;
+    }
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -224,17 +244,4 @@ img{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-@media (max-width: 978px) {
-    .next, .close {
-	  margin-right:0;
-    }
-	.slideshow-container {
-	  padding-left:0;
-	  padding-right:0;
-	  padding-top:0;
-	  padding-bottom:5%;
-	  margin:0;
-    }
 }
