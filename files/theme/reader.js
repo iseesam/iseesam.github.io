@@ -48,5 +48,5 @@ function currentSlide(n) {
 
 // Close control
 function visitPage(){
-  window.location='https://iseesam.github.io/readers/index.html';
+  window.location='https://iseesam.github.io/readers/readers.html';
 }
