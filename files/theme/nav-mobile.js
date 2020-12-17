@@ -1,3 +1,3 @@
 $(function(){
-    $("#nav-placeholder").load("footer.html");
+    $("#nav-placeholder").load("nav-mobile.html");
   });
