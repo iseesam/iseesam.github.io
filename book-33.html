@@ -1,16 +1,20 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 <head>
-<link rel="stylesheet" href="/files/theme/reader.css">
-<script src="/files/theme/reader.js"></script>
-</head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="files/theme/reader.css">
+<link rel="stylesheet" type="text/css" href="files/theme/main_style.css">
+<script src="files/theme/reader.js" defer></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+</head>
 <body>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade block">
-    <img src="/files/theme/book33/cover.png">
+    <img src="files/book33/cover.png">
     <div class="title">Mat in the Hat</div>
     <div class="title2">Book 33</div>
   </div>
@@ -29,13 +33,13 @@
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 14</div>
-    <img src="/files/theme/book33/1.png">
+    <img src="files/book33/1.png">
     <figcaption class="text">Mat and Sis see Mit.</figcaption>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 14</div>
-    <img src="/files/theme/book33/2.png">
+    <img src="files/book33/2.png">
     <figcaption class="text">"What is that?<br>
 	Is that a fish?"</br>
 	</figcaption>
@@ -43,7 +47,7 @@
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 14</div>
-    <img src="/files/theme/book33/3.png">
+    <img src="files/book33/3.png">
     <figcaption class="text">"Yes. That is a fish.<br>
 	Mit, let me see it."</br>
 	</figcaption>
@@ -51,13 +55,13 @@
   
   <div class="mySlides fade">
     <div class="numbertext">4 / 14</div>
-    <img src="/files/theme/book33/4.png">
+    <img src="files/book33/4.png">
     <figcaption class="text">Then Mit let Mat see it.</figcaption>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">5/ 14</div>
-    <img src="/files/theme/book33/5.png">
+    <img src="files/book33/5.png">
     <figcaption class="text">"Mat! Mat!<br>
 	Mat is with the fish."</br>
 	</figcaption>
@@ -65,7 +69,7 @@
   
   <div class="mySlides fade">
     <div class="numbertext">6 / 14</div>
-    <img src="/files/theme/book33/6.png">
+    <img src="files/book33/6.png">
 	<figcaption class="text">"Mat is in a mess.<br>
 	He needs us!"</br>
 	</figcaption>
@@ -73,13 +77,13 @@
   
   <div class="mySlides fade">
     <div class="numbertext">7 / 14</div>
-    <img src="/files/theme/book33/7.png">
+    <img src="files/book33/7.png">
 	<figcaption class="text">"See the fish and me."</figcaption>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">8 / 14</div>
-    <img src="/files/theme/book33/8.png">
+    <img src="files/book33/8.png">
     <figcaption class="text">Mit ran.<br>
 	Then Sis ran.</br>
 	</figcaption>
@@ -87,13 +91,13 @@
   
   <div class="mySlides fade">
     <div class="numbertext">9 / 14</div>
-    <img src="/files/theme/book33/9.png">
+    <img src="files/book33/9.png">
     <figcaption class="text">Then Ann ran.</figcaption>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">10 / 14</div>
-    <img src="/files/theme/book33/10.png">
+    <img src="files/book33/10.png">
     <figcaption class="text">Mat sees Ann.<br>
 	He sees the hat.<br>
 	Mat needs that hat.</br>
@@ -102,19 +106,19 @@
   
   <div class="mySlides fade">
     <div class="numbertext">11 / 14</div>
-    <img src="/files/theme/book33/11.png">
+    <img src="files/book33/11.png">
     <figcaption class="text">Will Mat fit in the hat?</figcaption>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">12 / 14</div>
-    <img src="/files/theme/book33/12.png">
+    <img src="files/book33/12.png">
     <figcaption class="text">Then he fell.</figcaption>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">13 / 14</div>
-    <img src="/files/theme/book33/13.png">
+    <img src="files/book33/13.png">
     <figcaption class="text">"He sits in the hat.<br>
 	See Mat in the hat."</br>
 	</figcaption>
@@ -122,7 +126,7 @@
   
   <div class="mySlides fade">
     <div class="numbertext">14 / 14</div>
-    <img src="/files/theme/book33/14.png">
+    <img src="files/book33/14.png">
     <figcaption class="text">Then Sis sat in the hat.<br>
 	Mit and Mat ran with Ann and Sis.</br>
 	</figcaption>
@@ -140,6 +144,7 @@
 	</div>
     </div>
   </div>
+</div>
 
   <div class="button-container">
     <!-- Next and previous buttons -->
@@ -147,8 +152,6 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
     <a class="close" onclick="visitPage()">x</a>
   </div>
-</div>
-<br>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
@@ -170,5 +173,9 @@
   <span class="dot" onclick="currentSlide(16)"></span>
   <span class="dot" onclick="currentSlide(17)"></span>
 </div>
+
+<script type="text/javascript" src="files/theme/plugins.js"></script>
+<script type="text/javascript" src="files/theme/custom.js"></script>
+
 </body> 
 </html>
