@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: book1-old.html
+Disallow: index-old.html
+
+Sitemap: sitemap.xml
