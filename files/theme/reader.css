@@ -220,6 +220,7 @@ img{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  position: fixed;
   transition: background-color 0.6s ease;
 }
 
