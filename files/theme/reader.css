@@ -24,8 +24,6 @@
   width: 100%;
   /* To horizontally center images and caption */
   text-align: center;
-  position: fixed;
-  bottom: 0;
 }
 	
 	.slideshow-container, .button-container, .next, .close {
