@@ -132,7 +132,6 @@ img{
 /* Caption text */
 .text, .title, .title2 {
   display: block;
-  position: fixed;
 }
 
 .title {
