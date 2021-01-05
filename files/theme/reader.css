@@ -220,8 +220,6 @@ img{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  position: fixed;
-  bottom: 0;
   transition: background-color 0.6s ease;
 }
 
