@@ -5,6 +5,31 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="files/theme/main_style.css" title="wsite-theme-css" />
+<style>
+	#button a.button3{
+	 display:inline-block;
+	 padding:0.3em 1.2em;
+	 margin:0 0.3em 0.3em 0;
+	 border-radius:2em;
+	 box-sizing: border-box;
+	 text-decoration:none;
+	 font-family:'Roboto',sans-serif;
+	 font-weight:300;
+	 color:#FFFFFF;
+	 background-color:#4eb5f1;
+	 text-align:center;
+	 transition: all 0.2s;
+	}
+	#button a.button3:hover{
+	 background-color:#4095c6;
+	}
+	@media all and (max-width:30em){
+	#button a.button3{
+	  display:block;
+	  margin:0.2em auto;
+	 }
+	}
+</style>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>	
 	</head>
 	<body class="no-header-page  wsite-page-readers  sticky-nav-off full-width-on header-scroll-animate-off  wsite-theme-light"><div class="wrapper">
@@ -54,33 +79,8 @@
           <div class="container">
 			<div class="wsite-section-elements">
 				<div class="paragraph"><font size="5">
-					<style>
-						a.button3{
-						 display:inline-block;
-						 padding:0.3em 1.2em;
-						 margin:0 0.3em 0.3em 0;
-						 border-radius:2em;
-						 box-sizing: border-box;
-						 text-decoration:none;
-						 font-family:'Roboto',sans-serif;
-						 font-weight:300;
-						 color:#FFFFFF;
-						 background-color:#4eb5f1;
-						 text-align:center;
-						 transition: all 0.2s;
-						}
-						a.button3:hover{
-						 background-color:#4095c6;
-						}
-						@media all and (max-width:30em){
-						 a.button3{
-						  display:block;
-						  margin:0.2em auto;
-						 }
-						}
-					</style>
 					<a name="top">&nbsp</a><br>
-					<a href="#1-9" class="button3">[Books 1-9] </a><a href="readers.html#10-19" class="button3">[Books 10-19] </a><a href="readers.html#20-29" class="button3">[Books 20-29] </a><a href="readers.html#30-39" class="button3">[Books 30-39] </a><a href="readers.html#40-52" class="button3">[Books 40-52]</a><br>
+					<a href="#1-9" id="button" class="button3">[Books 1-9] </a><a href="readers.html#10-19" class="button3">[Books 10-19] </a><a href="readers.html#20-29" class="button3">[Books 20-29] </a><a href="readers.html#30-39" class="button3">[Books 30-39] </a><a href="readers.html#40-52" class="button3">[Books 40-52]</a><br>
 					<section id="1-9">
 					<h2>Books 1-9</h2>
 					<a href="book-1.html">Book 1: I See Sam</a><br />
